@@ -14,7 +14,7 @@
             <p id="head-phrase">Hi, my name is<br/><span id="head-name">CHRIS</span></p>
             <img src="images/profile-picture.png" alt="Picture of Chris" class="photo" id="head-img">
         </header>
-        <nav>
+        <nav class="sticky">
             <ul>
                 <li id="nav-name">CHRIS</li>
                 <li><a href="#about-me" class="nav-item">About Me</a></li>
@@ -23,7 +23,8 @@
             </ul>
         </nav>
         <main>
-            <h1 id="about-me">About Me</h1>
+            <a class="anchor" id="about-me"></a>
+            <h1>About Me</h1>
             <p>
                 I'm a computer science student from De La Salle University who's
                 passion is to create art, films, and interactive media through
@@ -33,7 +34,8 @@
                 As geeky as I may be, I'm happy to make new friends and always
                 excited to work with others.
             </p>
-            <h1 id="skills">Skills</h1>
+            <a class="anchor" id="skills"></a>
+            <h1>Skills</h1>
             <h2>That I Know:</h2>
             <section class="gallery">
                 <div class="row">
@@ -55,12 +57,13 @@
                 </div>
             </section>
             <h1 class="center-text">Here are my links</h1>
-            <section>
-
+            <section class="row">
+                <img class="logo" src="images/github-logo.svg" alt="Github">
             </section>
+            <a class="anchor" id="contact"></a>
             <address class="center-text">
-                <h3 id="contact">Ask me anything!</h3>
-                <a href="mailto:chris_cheng@dlsu.edu.ph">chris_cheng@dlsu.edu.ph</a>
+                <h3>Ask me anything!</h3>
+                <a id="email" href="mailto:chris_cheng@dlsu.edu.ph">chris_cheng@dlsu.edu.ph</a>
             </address>
             <footer>
                 <p id="copyright">©<script type="text/javascript">

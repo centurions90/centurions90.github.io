@@ -57,7 +57,9 @@ footer {
 }
 
 address {
+    padding-bottom: 2em;
     margin-bottom: 2em;
+    overflow: hidden;
 }
 
 #head-phrase {
@@ -68,14 +70,26 @@ address {
     font-family: minotaurphatte;
 }
 
+#email {
+    background-color: #1cebe7;
+    color: white;
+    text-decoration: none;
+    padding: 5px 5px;
+    border: 1px solid #141414;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
 #copyright {
     text-align: left;
+    font-size: 0.9em;
 }
 
 .center-text {
     text-align: center;
     margin-left: 0;
     margin-right: 0;
+    margin-bottom: auto;
 }
 
 .gallery {
@@ -99,6 +113,19 @@ address {
     margin-bottom: 10px;
 }
 
+.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -100px;
+    visibility: hidden;
+}
+
 @media only screen and (max-width: 400px), (orientation: portrait) {
 
     h1 {
@@ -109,6 +136,11 @@ address {
     h2 {
         margin: 0 auto 0.5em 2em;
         font-size: 1.5em;
+    }
+
+    h3 {
+        margin: 0 auto 0.8em auto;
+        font-size: 1.2em;
     }
 
     p {
