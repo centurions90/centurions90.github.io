@@ -68,10 +68,35 @@ address {
     font-family: minotaurphatte;
 }
 
+#copyright {
+    text-align: left;
+}
+
 .center-text {
     text-align: center;
     margin-left: 0;
     margin-right: 0;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 15vw;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.logo {
+    width: 75px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 @media only screen and (max-width: 400px), (orientation: portrait) {
