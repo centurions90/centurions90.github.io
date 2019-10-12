@@ -87,7 +87,8 @@ address {
     }
 
     p {
-        margin: 0 4em 1em 3em;
+        margin: 0 3.8em 1em 3em;
+        line-height: 1.5em;
     }
 
     ul {
