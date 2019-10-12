@@ -97,11 +97,12 @@ address {
     }
 
     footer {
-        padding-top: 1em;
-        padding-bottom: 4em;
+        padding-top: 2em;
+        padding-bottom: 2em;
     }
 
     #head-phrase {
+        line-height: 3em;
         padding-left: 15vw;
         padding-top: 8vw;
         padding-bottom: 3vw;
