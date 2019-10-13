@@ -70,6 +70,11 @@ address {
     font-family: minotaurphatte;
 }
 
+#nav-name {
+    font-family: minotaurphatte;
+    font-size: 3em;
+}
+
 #email {
     background-color: #1cebe7;
     color: white;
@@ -176,16 +181,77 @@ a.anchor {
         margin-bottom: 1em;
     }
 
-    #nav-name {
-        font-family: minotaurphatte;
-        font-size: 2em;
-    }
-
     .photo {
         display: block;
         margin-left: auto;
         margin-right: auto;
         width: 60%;
+    }
+
+}
+
+@media only screen and (min-width: 768px), (orientation: landscape) {
+
+    h1 {
+        margin: 1em;
+        margin-left: 10vw;
+        font-size: 3em;
+    }
+
+    h2 {
+        margin: 1em;
+        margin-left: 18vw;
+        font-size: 2em;
+    }
+
+    h3 {
+        font-size: 1em;
+        margin-bottom: 1em;
+    }
+
+    header {
+        height: 35vw;
+    }
+
+    p {
+        margin: 1em;
+        margin-left: 15vw;
+        margin-right: 25vw;
+        line-height: 1.3em;
+    }
+
+    ul {
+        padding: 0;
+        margin: 1em auto;
+    }
+
+    #head-phrase {
+        display: inline-block;
+        width: auto;
+        font-size: 3vw;
+        line-height: 1.2em;
+        padding-left: 6vw;
+        padding-top: 14vw;
+        padding-bottom: 3vw;
+        margin: 0 auto;
+    }
+
+    #head-name {
+        font-size: 20vw;
+        position: relative;
+        top: 0.34em;
+        right: 0.05em;
+    }
+
+    #head-img {
+        float: right;
+        margin-top: 7vw;
+        margin-right: 16vw;
+        width: 18vw;
+    }
+
+    .logo {
+        width: 100px;
     }
 
 }
